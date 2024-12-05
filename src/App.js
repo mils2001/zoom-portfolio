@@ -1,11 +1,13 @@
 import './App.css';
 import React, {BrowserRouter,Routes,Route} from "react-router-dom"
 import Navbar from './components/Navbar';
+import Zoom from './Zoom';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Zoom/>
     
       <Navbar />
       <Routes>
