@@ -1,0 +1,9 @@
+.container{
+    justify-content: flex-start;
+    position: relative;
+}
+.navbar{
+    color: greenyellow;
+    padding: 10px 20px;
+    
+}
