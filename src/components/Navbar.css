@@ -3,9 +3,9 @@
     position: relative;
 }
 .navbar{
-    background-color: aqua;
-    color: greenyellow;
-    padding: 10px 20px;
+    background-color:#000;
+    color: green;
+    padding: 30px 20px;
     display: flex;
 
 }
@@ -13,4 +13,25 @@
     justify-content: center;
     font-size: large;
     font-weight: 100;
+    color:green;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+    top: 0;
+}
+.btn{
+    background-color: green;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: green;
 }
