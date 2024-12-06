@@ -18,6 +18,12 @@ function Navbar() {
                 <li>
                     <Link to='./pages/Contact.js'>Contact</Link>
                 </li>
+                <li>
+                    <Link to='./pages/experiece.js'>Experience</Link>
+                </li>
+                <li>
+                    <Link to='./pages/work.js'>Work</Link>
+                </li>
             </ul>
             </div>
         </nav>

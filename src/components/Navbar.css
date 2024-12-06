@@ -6,7 +6,7 @@
     background-color: aqua;
     color: greenyellow;
     padding: 10px 20px;
-    margin-top: 10px;
+    display: flex;
 
 }
 .nav-links{
