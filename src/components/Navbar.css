@@ -15,7 +15,9 @@
     display: flex;
     gap: 20px;
     list-style: none;
-    margin-left: 120%;
+    margin-left: 140%;
+    align-items: center;
+    justify-content: flex-start;
   }
   
   .nav-links li {
@@ -25,14 +27,14 @@
   
   .nav-links a {
     text-decoration: none;
-    color: white;
+    color: green;
     font-size: 16px;
     
 
   }
   
   .nav-links a:hover {
-    color: #28a745; /* Optional: Highlight links on hover */
+    color: white; /* Optional: Highlight links on hover */
   }
   .btn-container{
     display: flex;
@@ -41,13 +43,14 @@
 
 .btn{
     background-color: #218838;
-    color: #000;
+    color: white;
     cursor: pointer;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    margin-left: 200%;
+    margin-left: 250%;
+    margin-bottom: 20px;
 }
 .btn:hover{
     background-color: black;
