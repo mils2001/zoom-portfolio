@@ -25,7 +25,7 @@ function Navbar() {
                     <Link to='./pages/work.js'>Work</Link>
                 </li>
             </ul>
-            <div>
+            <div className='btn-container'>
                 <button className='btn' >RESUME</button>
             </div>
             </div>

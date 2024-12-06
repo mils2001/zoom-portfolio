@@ -3,33 +3,46 @@
     position: relative;
 }
 .navbar{
-    background-color:#000;
-    color: green;
-    padding: 30px 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000
 
 }
-.nav-links{
-    justify-content: center;
-    font-size: large;
-    font-weight: 100;
-    color:green;
+
+.nav-links {
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    gap: 10px;
-    top: 0;
-}
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    padding: 5px 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    color: #28a745; /* Optional: Highlight links on hover */
+  }
+  .btn-container{
+    display: flex;
+    gap: 20px;
+  }
+
 .btn{
-    background-color: green;
-    color: black;
+    background-color: #218838;
+    color: #000;
+    cursor: pointer;
     padding: 10px 20px;
     border: none;
-    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
 }
 .btn:hover{
     background-color: black;
