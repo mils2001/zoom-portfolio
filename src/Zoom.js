@@ -11,6 +11,10 @@ const [isDetailsPopupVisible,setIsDetailsPopupVisible] = useState(false);
 const [alertMessage,setAlertMessage] = useState('');
 
 
+
+
+
+
 const fetchInfo= async() => {
   try {
     const response = await fetch(API_URL);
@@ -29,16 +33,15 @@ useEffect(() => {
     <div className='container'>
       <div>
         <img src='https://i.imgur.com/jFvVx5c.png' alt='portfolio-pic' className='pic'/>
+        
+            <div className='container'>
+               <h1 className='h1'>Hello, My names are Miles Christian David </h1>
 
-        <div className='words'>
-          <h1 className='h1'>Hi, my name is</h1>
-
-          <h2 className='h2'>I'm a Web Developer</h2>
-
-          <p className='p1'>I'm a full-stack developer with experience in React, Node.js, Express, MongoDB, and more.</p>
+            </div>
 
 
-        </div>
+
+        
       </div>
       </div>
    
