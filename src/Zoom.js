@@ -34,7 +34,7 @@ useEffect(() => {
       <div>
         <img src='https://i.imgur.com/jFvVx5c.png' alt='portfolio-pic' className='pic'/>
         
-            <div className='container'>
+            <div className='text-container'>
                <h1 className='h1'>Hello, My names are Miles Christian David </h1>
 
             </div>

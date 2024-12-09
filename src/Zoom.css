@@ -1,31 +1,29 @@
-.pic{
+.pic {
     border-style: groove;
     width: 30%;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 5px;
-    gap: 10%;
-    margin-left: 50%;
+    margin-left: 50%; /* Keeps the image on the right */
     margin-top: 2%;
+    float: right; /* Aligns the image to the right */
 }
-.container{
-    
 
-    
+.text-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-start; /* Align text to the left of the container */
+    align-items: center; /* Vertically center-align the text with the image */
+    gap: 2%; /* Space between the text and image */
+    margin-top: 2%; /* Adjust spacing between the container and the top */
 }
-.h1{
-    text-align: center;
+
+.h1 {
     color: green;
     font-size: 24px;
-    margin-top: auto;
     font-weight: bold;
-    margin-right: 40%;
-    margin-bottom: 2%;
-    float: unset;
-    position: static;
-
-
-
+    margin: 0; /* Remove unnecessary margins */
+    text-align: left; /* Align text to the left */
 }
+
 
 
