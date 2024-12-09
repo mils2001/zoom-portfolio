@@ -30,12 +30,12 @@ useEffect(() => {
       <div>
         <img src='https://i.imgur.com/jFvVx5c.png' alt='portfolio-pic' className='pic'/>
 
-        <div>
-          <h1>Hi, my name is</h1>
+        <div className='words'>
+          <h1 className='h1'>Hi, my name is</h1>
 
-          <h2>I'm a Web Developer</h2>
+          <h2 className='h2'>I'm a Web Developer</h2>
 
-          <p>I'm a full-stack developer with experience in React, Node.js, Express, MongoDB, and more.</p>
+          <p className='p1'>I'm a full-stack developer with experience in React, Node.js, Express, MongoDB, and more.</p>
 
 
         </div>

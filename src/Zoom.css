@@ -7,6 +7,21 @@
     gap: 10%;
     margin-left: 50%;
     margin-top: 2%;
-    
+}
+.words{
+    float: left;
+    font-size: large;
+    width: 50%;
+
+}
+.h1{
+    float: left;
+    font-size: large;
+    color: green;
+}
+.h2{
+    float: left;
+    font-size: large;
+    color: green;
 
 }
