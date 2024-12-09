@@ -1,6 +1,23 @@
 import React, { Component,} from 'react'
 
+
+
+const API_URL = "http://localhost:3000/portfolio"
+
 export class Zoom extends Component {
+  const[]= 
+
+
+  const  fetchInfo= async () => {
+    try{
+      const responce = await fetch(API_URL);
+      if(!responce.ok){
+        throw new Error(`HTTP error! status: ${responce.status}`);
+      }
+    }
+  }
+  
+
   render() {
     return (
       <div>
