@@ -26,6 +26,33 @@
     margin-left: 40%;/* Remove unnecessary margins */
     text-align: center; /* Align text to the left */
 }
+.lines{
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40%;/* Remove unnecessary margins */
+    text-align: center;  
+}
+.btn{
+    background-color: green;
+    color:black;
+    padding: 10px 20px;
+
+}
+.btn:hover{
+    background-color: black;
+    color: green;
+}
+.btn1{
+    background-color: green;
+    color: black;
+    padding: 20px 20px;
+    
+}
+.btn1:hover{
+    background-color: black;
+    color: green;
+}
 
 
 

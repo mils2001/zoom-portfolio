@@ -36,6 +36,12 @@ useEffect(() => {
         
             <div className='text-container'>
                <h1 className='h1'>Hello, My names are Miles Christian David </h1>
+               <p className='lines'>I am software engineer passionate about coding and exploring the tech world. Am graduate of Moringa Tech Collage..My speciality is in React,Javascript,MongoDB,Ruby on Rails.</p>
+                 
+            </div>
+            <div className='btn-container'>
+              <button className='btn'>Contact</button>
+              <button className='btn1'>Refer</button>
 
             </div>
 
