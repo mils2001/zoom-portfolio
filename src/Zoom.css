@@ -1,9 +1,10 @@
 .pic{
-    padding: 50px 50px;
-    border-radius: 10px;
-    background-color: #f1f1f1;
-    float: left;
-    margin-right: 20px;
+    border-style: groove;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 5px;
+    gap: 10%;
     
 
 }
