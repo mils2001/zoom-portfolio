@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Zoom />
       <Routes>
-        <Route path="/" element={<h1>Welcome to the Home Page</h1>} />
-        <Route path="/about" element={<h1>About Us</h1>} />
-        <Route path="/contact" element={<h1>Contact Us</h1>} />
+        <Route path="./components/pages/Home.js"  />
+        <Route path="./components/pages/About.js" element={<h1>About Us</h1>} />
+        <Route path="./components/pages/Contact.js" element={<h1>Contact Us</h1>} />
       </Routes>
       </BrowserRouter>
       

@@ -11,18 +11,20 @@
 
 .text-container {
     display: flex; /* Use flexbox for alignment */
-    justify-content: flex-start; /* Align text to the left of the container */
-    align-items: center; /* Vertically center-align the text with the image */
+    flex-direction: column; /* setting in rows  */
+    justify-content: contents; /* Align text to the left of the container */
+    align-items: flex-start; /* Vertically center-align the text with the image */
     gap: 2%; /* Space between the text and image */
     margin-top: 2%; /* Adjust spacing between the container and the top */
+    
 }
 
 .h1 {
     color: green;
     font-size: 24px;
     font-weight: bold;
-    margin: 0; /* Remove unnecessary margins */
-    text-align: left; /* Align text to the left */
+    margin-left: 40%;/* Remove unnecessary margins */
+    text-align: center; /* Align text to the left */
 }
 
 
