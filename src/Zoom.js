@@ -1,25 +1,8 @@
-import React, { Component,} from 'react'
+import React, {useState,useEffect} from 'react'
 
-
-
-const API_URL = "http://localhost:3000/portfolio"
-
-export class Zoom extends Component {
-  const[]= 
-
-
-  const  fetchInfo= async () => {
-    try{
-      const responce = await fetch(API_URL);
-      if(!responce.ok){
-        throw new Error(`HTTP error! status: ${responce.status}`);
-      }
-    }
-  }
-  
-
-  render() {
-    return (
+function Zoom() {
+  return (
+    <div className='container'>
       <div>
         <img src='https://i.imgur.com/jFvVx5c.png' alt='portfolio-pic' className='pic'/>
 
@@ -33,8 +16,10 @@ export class Zoom extends Component {
 
         </div>
       </div>
+      </div>
    
   )}
-}
+  
+
 
 export default Zoom
