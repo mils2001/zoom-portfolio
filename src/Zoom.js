@@ -5,7 +5,7 @@ const API_URL = "http://localhost:3000/portfolio";
 
 function Zoom() {
   const [infoList, setInfoList] = useState([]); // Holds the fetched list
-  const [isDetailsPopupVisible, setIsDetailsPopupVisible] = useState(false);
+  const [isPopupVisible, setIsPopupVisible] = useState(false); // State for popup visibility
   const [alertMessage, setAlertMessage] = useState('');
 
   // Fetch data from the API
@@ -13,7 +13,7 @@ function Zoom() {
     try {
       const response = await fetch(API_URL);
       const data = await response.json();
-      setInfoList(data); // Assuming `data` is an array
+      setInfoList(data); // Assuming `data` is an array or object
     } catch (error) {
       console.error('Error fetching data:', error);
     }
@@ -24,6 +24,18 @@ function Zoom() {
     fetchInfo();
   }, []);
 
+  // Handle popup visibility
+  const handlePopup = () => {
+    setIsPopupVisible(true);
+  };
+
+  // Handle contact form submission
+  const handleContactSubmit = () => {
+    setIsPopupVisible(false);
+    setAlertMessage('Contact has been successfully delivered!');
+    alert('Contact has been successfully delivered!'); // Display alert to the user
+  };
+
   return (
     <div className="hero-section">
       <div className="hero-content">
@@ -33,14 +45,28 @@ function Zoom() {
         <p className="description">
           {infoList.description || 'I’m a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on creating accessible, user-centered products.'}
         </p>
-        <a href="#contact" className="hero-button">Get in Touch</a>
+        <button className="hero-button" onClick={handlePopup}>
+          Get in Touch
+        </button>
       </div>
       <div className="hero-image">
-        <img 
-          src='https://i.imgur.com/jFvVx5c.png' 
-          alt="Your Picture" 
-        />
+          <img src={infoList.image || 'https://i.imgur.com/jFvVx5c.png'} alt="Hero Image" />
+  
       </div>
+
+      {/* Popup for Contact Details */}
+      {isPopupVisible && (
+        <div className="popup">
+          <div className="popup-content">
+            <h3>Contact Me</h3>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123 456 7890</p>
+            <button className="close-button" onClick={handleContactSubmit}>
+              Deliver Contact
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
