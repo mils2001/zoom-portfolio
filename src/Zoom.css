@@ -11,50 +11,43 @@
 
 .text-container {
     display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* setting in rows  */
-    justify-content: contents; /* Align text to the left of the container */
-    align-items: flex-start; /* Vertically center-align the text with the image */
-    gap: 2%; /* Space between the text and image */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: flex-start; /* Align text to the top of the container */
+    align-items: flex-start; /* Align text to the left */
+    gap: 10px; /* Space between text lines */
     margin-top: 2%; /* Adjust spacing between the container and the top */
-    
+    margin-right: 35%; /* Adjust container's alignment relative to the image */
 }
 
-.h1 {
+.h1,
+.lines {
     color: green;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 40%;/* Remove unnecessary margins */
-    text-align: center; /* Align text to the left */
+    margin: 0; /* Remove unnecessary margins */
+    text-align: left; /* Align text to the left */
 }
-.lines{
-    color: green;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 40%;/* Remove unnecessary margins */
-    text-align: center;  
-}
-.btn{
-    background-color: green;
-    color:black;
-    padding: 10px 20px;
-    align-items: center;
 
+.btn-container {
+    display: flex; /* Use flexbox for buttons */
+    gap: 10px; /* Space between the buttons */
+    margin-top: 20px; /* Add space above the buttons */
 }
-.btn:hover{
-    background-color: black;
-    color: green;
-}
-.btn1{
+
+.btn, .btn1 {
     background-color: green;
     color: black;
-    padding: 20px 20px;
-   align-items: center;
-    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.btn1:hover{
+
+.btn:hover, .btn1:hover {
     background-color: black;
     color: green;
 }
+
 
 
 
