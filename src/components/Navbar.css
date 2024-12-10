@@ -29,6 +29,21 @@
 .nav-links a:hover {
   color: white;
 }
+.container-logo {
+  display: flex;
+  align-items: center;
+  text-decoration:solid ;
+  font-style: italic;
+  color: #28a745;
+}
+
+.logo {
+  width: 60px; /* Set the width for the logo */
+  height: 40px; /* Set the height for the logo */
+  border-radius: 50%; /* Makes the logo circular if it's a square image */
+  object-fit: cover; /* Ensures the logo doesn't get distorted */
+  margin-right: 10px; /* Space between logo and text */
+}
 
 .btn-container {
   margin-left: auto;

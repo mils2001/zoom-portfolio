@@ -40,7 +40,7 @@ function Zoom() {
     <div className="hero-section">
       <div className="hero-content">
         <p className="intro-text">Hi, my name is</p>
-        <h1 className="main-name">{infoList.name || '[Miles Christian David Wafula]'}</h1>
+        <h1 className="main-name"><span className="typing-animation">[Miles Christian David Wafula]</span></h1>
         <h2 className="subtitle">I build things for the web.</h2>
         <p className="description">
           {infoList.description || 'I’m a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on creating accessible, user-centered products.'}

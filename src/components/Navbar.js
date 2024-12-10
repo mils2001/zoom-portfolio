@@ -12,8 +12,8 @@ function Navbar() {
   return (
     <div className="container">
       <nav className="navbar">
-        <div className="logo">
-          <Link to="/">MyLogo</Link>
+        <div className="container-logo">
+        <img src='https://i.imgur.com/bpo8Jnv.jpeg' alt='logo' className='logo' />
         </div>
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <li>
