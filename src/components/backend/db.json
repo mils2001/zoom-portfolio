@@ -1,17 +1,11 @@
 {
     "portfolio":[
         {
-            "title": "Portfolio Project 1",
-            "description": "A responsive website for a travel agency.",
-            "url": "https://example.com/portfolio1",
-            "screenshot": "https://i.imgur.com/screenshot1.png"
-        },
-        {
-            "title": "Portfolio Project 2",
-            "description": "A web application for a blogging platform.",
-            "url": "https://example.com/portfolio2",
-            "screenshot": "https://i.imgur.com/screenshot2.png"
-        }
+            "name": "Miles Christian David",
+            "description": "I’m a software engineer specializing in building exceptional digital experiences.",
+            "screenshot": "your-image-url.jpg"
+          }
+          
         
     ]
 }
