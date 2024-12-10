@@ -33,7 +33,7 @@ function Zoom() {
   const handleContactSubmit = () => {
     setIsPopupVisible(false);
     setAlertMessage('Contact has been successfully delivered!');
-    alert('Contact has been successfully delivered!'); // Display alert to the user
+    alert('Thank you for reaching out my contact details provided above.!'); // Display alert to the user
   };
 
   return (
