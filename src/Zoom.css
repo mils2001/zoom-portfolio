@@ -61,8 +61,8 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #64ffda;
-    color: #0a192f;
+    background-color: green;
+    color: black;
 }
 
 /* Image Content */
@@ -93,7 +93,7 @@ body {
   
   /* Popup content */
   .popup-content {
-    background: white;
+    background: blue;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

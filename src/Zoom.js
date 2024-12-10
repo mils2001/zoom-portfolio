@@ -40,7 +40,7 @@ function Zoom() {
     <div className="hero-section">
       <div className="hero-content">
         <p className="intro-text">Hi, my name is</p>
-        <h1 className="main-name">{infoList.name || '[Your Name Here]'}</h1>
+        <h1 className="main-name">{infoList.name || '[Miles Christian David Wafula]'}</h1>
         <h2 className="subtitle">I build things for the web.</h2>
         <p className="description">
           {infoList.description || 'I’m a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on creating accessible, user-centered products.'}
@@ -59,10 +59,10 @@ function Zoom() {
         <div className="popup">
           <div className="popup-content">
             <h3>Contact Me</h3>
-            <p>Email: example@example.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: Mileschris466@gmail.com</p>
+            <p>Phone: +254748778480</p>
             <button className="close-button" onClick={handleContactSubmit}>
-              Deliver Contact
+               Contact
             </button>
           </div>
         </div>
