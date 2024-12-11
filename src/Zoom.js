@@ -6,7 +6,6 @@ const API_URL = "http://localhost:3000/portfolio";
 function Zoom() {
   const [infoList, setInfoList] = useState([]); // Holds the fetched list
   const [isPopupVisible, setIsPopupVisible] = useState(false); // State for popup visibility
-  const [alertMessage, setAlertMessage] = useState('');
 
   // Fetch data from the API
   const fetchInfo = async () => {
@@ -32,15 +31,14 @@ function Zoom() {
   // Handle contact form submission
   const handleContactSubmit = () => {
     setIsPopupVisible(false);
-    setAlertMessage('Contact has been successfully delivered!');
-    alert('Thank you for reaching out my contact details provided above.!'); // Display alert to the user
+    alert('Thank you for reaching out! My contact details are provided above.'); // Display alert to the user
   };
 
   return (
     <div className="hero-section">
       <div className="hero-content">
         <p className="intro-text">Hi, my name is</p>
-        <h1 className="main-name"><span className="typing-animation">[Miles Christian David Wafula]</span></h1>
+        <h1 className="main-name"><span className="typing-animation">Miles Christian David Wafula</span></h1>
         <h2 className="subtitle">I build things for the web.</h2>
         <p className="description">
           {infoList.description || 'I’m a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on creating accessible, user-centered products.'}
@@ -50,8 +48,7 @@ function Zoom() {
         </button>
       </div>
       <div className="hero-image">
-          <img src={infoList.image || 'https://i.imgur.com/jFvVx5c.png'} alt="Hero Image" />
-  
+        <img src="https://i.imgur.com/jFvVx5c.png" alt="Hero representing developer work" />
       </div>
 
       {/* Popup for Contact Details */}
@@ -62,7 +59,7 @@ function Zoom() {
             <p>Email: Mileschris466@gmail.com</p>
             <p>Phone: +254748778480</p>
             <button className="close-button" onClick={handleContactSubmit}>
-               Contact
+              Contact
             </button>
           </div>
         </div>
