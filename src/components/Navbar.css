@@ -104,7 +104,7 @@ textarea {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .submit-btn, .close-btn {
@@ -113,6 +113,8 @@ textarea {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  gap: 20px;
+  
 }
 
 .submit-btn {
@@ -130,7 +132,7 @@ textarea {
 }
 
 .close-btn:hover {
-  background-color: #e53935;
+  background-color: #1a7030;
 }
 
 
