@@ -7,6 +7,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/mils2001/zoom-portfolio/issues"
   },
-  "homepage": "https://github.com/mils2001/zoom-portfolio#readme"
+  "homepage": "https://github.com/mils2001/zoom-portfolio#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
