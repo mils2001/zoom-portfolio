@@ -22,20 +22,21 @@ function Navbar() {
         </div>
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Zoom</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="./pages/Home.js">Home</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="./pages/About.js">About</Link>
           </li>
           <li>
-            <Link to="/experience">Experience</Link>
+            <Link to="./pages/Contact.js">Contact</Link>
           </li>
           <li>
-            <Link to="/work">Work</Link>
+            <Link to="./pages/experiece.js">Experience</Link>
           </li>
+         
         </ul>
         <div className="btn-container">
           <button className="btn" onClick={toggleResumePopup}>RESUME</button>
