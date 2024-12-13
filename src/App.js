@@ -3,7 +3,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Zoom from './Zoom';
-
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -11,10 +13,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          {/* Define proper paths */}
           <Route path="/" element={<Zoom />} />
-          <Route path="./components/pages/Home.js" element={<h1>Home</h1>} />
-          <Route path="./components/pages/About.js" element={<h1>About Us</h1>} />
-          <Route path="./components/pages/Contact.js" element={<h1>Contact Us</h1>} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
@@ -22,4 +25,5 @@ function App() {
 }
 
 export default App;
+
 
