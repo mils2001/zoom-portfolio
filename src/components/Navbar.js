@@ -46,9 +46,7 @@ function Navbar() {
           onClick={toggleMobileMenu}
           aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
         >
-          <span></span>
-          <span></span>
-          <span></span>
+         
         </button>
       </nav>
 
